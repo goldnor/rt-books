@@ -1,0 +1,17 @@
+[book]
+authors = [
+  "Peter Shirley",
+  "Trevor David Black",
+  "Steve Hollasch",
+  "Timo Sonnenschein"
+]
+language = "en"
+src = "src"
+title = "Ray Tracing in One Weekend (Rust)"
+
+[output.html]
+mathjax-support = true
+
+[preprocessor.git]
+command = "mdbook-git"
+path = "../../code"

@@ -1,0 +1,2 @@
+# Disclaimer
+The content of the original [book series](https://raytracing.github.io) is licensed under the [CC0 license](https://github.com/RayTracing/raytracing.github.io/blob/release/COPYING.txt), which permits copying, modification, and distribution. The explanations are copied directly and have been annotated with Rust-specific details where appropriate. Any sentences that include words such as *I*, *me*, or *mine* are from the original authors, Peter Shirley, Trevor David Black or Steve Hollasch. Once again, thank you for this outstanding book series.
