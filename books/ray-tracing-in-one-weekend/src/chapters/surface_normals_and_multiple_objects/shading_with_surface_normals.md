@@ -22,7 +22,7 @@ On the earth, this means that the vector from the earth’s center to you points
 {{ #git diff -U999 -h 2cf21871a39a309bce0edfb75464389bba9782f4 47441cbbe4cb464b6f29e82801d47aba101092f2 src/main.rs::40 }}
 ```
 
-**Listing 12:** [[main.rs](TODO)] *Rendering surface normals on a sphere*
+**Listing 12:** [[main.rs](https://github.com/goldnor/code/blob/47441cbbe4cb464b6f29e82801d47aba101092f2/src/main.rs)] *Rendering surface normals on a sphere*
 
 <br>
 

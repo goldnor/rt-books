@@ -5,7 +5,7 @@ Using our new `vec3` class, we'll create a new `color.h` header file and define 
 {{ #git show 6a4c63a317edcf4bb154fff3f817c561c2ed3aa9:src/color.rs }}
 ```
 
-**Listing 5:** [[color.rs](TODO)] *color utility functions*
+**Listing 5:** [[color.rs](https://github.com/goldnor/code/blob/6a4c63a317edcf4bb154fff3f817c561c2ed3aa9/src/color.rs)] *color utility functions*
 
 <br>
 
@@ -15,7 +15,7 @@ Now we can change our main to use both of these:
 {{ #git diff -h -U99 6a4c63a317edcf4bb154fff3f817c561c2ed3aa9 7e3d601b91c93177f3b3d1ed98aa69d8ecf4ffee src/main.rs }}
 ```
 
-**Listing 6:** [[main.rs](TODO)] *Final code for the first PPM image*
+**Listing 6:** [[main.rs](https://github.com/goldnor/code/blob/7e3d601b91c93177f3b3d1ed98aa69d8ecf4ffee/src/main.rs))] *Final code for the first PPM image*
 
 <br>
 

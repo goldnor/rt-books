@@ -10,7 +10,7 @@ We define the vec3 class in the top half of a new vec3.h header file, and define
 {{ #git show 400e8e91847d5b2fbde6eb17432cbbe49794e28d:src/vec3.rs }}
 ```
 
-**Listing 4:** [[vec3.rs](TODO)] *vec3 definitions and helper functions*
+**Listing 4:** [[vec3.rs](https://github.com/goldnor/code/blob/400e8e91847d5b2fbde6eb17432cbbe49794e28d/src/vec3.rs)] *vec3 definitions and helper functions*
 
 <br>
 

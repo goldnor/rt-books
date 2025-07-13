@@ -11,7 +11,7 @@ I’ll take you through writing a ray tracer in the order I do it, along with so
 [^1b]: Inheritance is not supported in Rust. In many places simple composition and traits will do the trick.
 
 I do not provide the code online, but the code is real and I show all of it except for a few straightforward operators in the vec3 class. I am a big believer in typing in code to learn it, but when code is available I use it, so I only practice what I preach when the code is not available. So don’t ask!
-I have left that last part in because it is funny what a 180 I have done. Several readers ended up with subtle errors that were helped when we compared code. So please do type in the code, but you can find the finished source for each book in the [RayTracing project on GitHub](TODO).
+I have left that last part in because it is funny what a 180 I have done. Several readers ended up with subtle errors that were helped when we compared code. So please do type in the code, but you can find the finished source for each book in the [RayTracing project on GitHub](https://github.com/goldnor/rt-books).
 
 A note on the implementing code for these books — our philosophy for the included code prioritizes the following goals:
 
@@ -26,9 +26,9 @@ The code thus provides a baseline implementation, with tons of improvements left
 
 We assume a little bit of familiarity with vectors (like dot product and vector addition). If you don’t know that, do a little review. If you need that review, or to learn it for the first time, check out the online *[Graphics Codex](https://graphicscodex.com/)* by Morgan McGuire, *Fundamentals of Computer Graphics* by Steve Marschner and Peter Shirley, or *Computer Graphics: Principles and Practice* by J.D. Foley and Andy Van Dam.
 
-See the [project README](TODO) file for information about this project, the repository on GitHub, directory structure, building & running, and how to make or reference corrections and contributions.
+See the [project README](https://github.com/goldnor/rt-books/blob/main/README.md) file for information about this project, the repository on GitHub, directory structure, building & running, and how to make or reference corrections and contributions.
 
-See our [Further Reading wiki page](TODO) for additional project related resources.
+See our [Further Reading wiki page](https://github.com/RayTracing/raytracing.github.io/wiki/Further-Readings) for additional project related resources.
 
 These books have been formatted to print well directly from your browser. We also include PDFs of each book [with each release](TODO), in the “Assets” section.
 

@@ -61,7 +61,7 @@ Drawing from all of this, here's the code that implements the camera. We'll stub
 {{ #git diff -h -U999 b54170d548e41ff6ea02b4eceb59269ee20b2a56 8f5c9042f86a1a778ef557f05162e6512ef2a85f src/main.rs }}
 ```
 
-**Listing 9:** [[main.rs](TODO)] *Creating scene rays*
+**Listing 9:** [[main.rs](https://github.com/goldnor/code/blob/8f5c9042f86a1a778ef557f05162e6512ef2a85f/src/main.rs)] *Creating scene rays*
 
 <br>
 
@@ -81,7 +81,7 @@ Putting all this together, here's what we get:
 {{ #git diff -h -U999 8f5c9042f86a1a778ef557f05162e6512ef2a85f d38202d1d50207cb9ff4bd6721dd88167e06feb6 src/main.rs::18  }}
 ```
 
-**Listing 10:** [[main.rs](TODO)] *Rendering a blue-to-white gradient*
+**Listing 10:** [[main.rs](https://github.com/goldnor/code/blob/d38202d1d50207cb9ff4bd6721dd88167e06feb6/src/main.rs)] *Rendering a blue-to-white gradient*
 
 <br>
 

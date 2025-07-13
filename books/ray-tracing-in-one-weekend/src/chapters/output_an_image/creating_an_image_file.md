@@ -40,7 +40,7 @@ On Mac or Linux, release build, you would launch the program like this:[^22c]
 cargo r > image.ppm
 ```
 
-Complete building and running instructions can be found in the [project README](TODO).
+Complete building and running instructions can be found in the [project README](https://github.com/goldnor/rt-books/blob/main/README.md).
 
 Opening the output file (in `ToyViewer` on my Mac, but try it in your favorite image viewer and Google “ppm viewer” if your viewer doesn’t support it) shows this result:
 
@@ -77,7 +77,7 @@ P3
 
 If your PPM file doesn't look like this, then double-check your formatting code. If it *does* look like this but fails to render, then you may have line-ending differences or something similar that is confusing your image viewer. To help debug this, you can find a file `test.ppm` in the `images` directory of the Github project. This should help to ensure that your viewer can handle the PPM format and to use as a comparison against your generated PPM file.
 
-Some readers have reported problems viewing their generated files on Windows. In this case, the problem is often that the PPM is written out as UTF-16, often from PowerShell. If you run into this problem, see [Discussion 1114](TODO) for help with this issue.
+Some readers have reported problems viewing their generated files on Windows. In this case, the problem is often that the PPM is written out as UTF-16, often from PowerShell. If you run into this problem, see [Discussion 1114](https://github.com/RayTracing/raytracing.github.io/discussions/1114) for help with this issue.
 
 If everything displays correctly, then you're pretty much done with system and IDE issues — everything in the remainder of this series uses this same simple mechanism for generated rendered images.
 

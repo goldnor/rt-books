@@ -8,7 +8,7 @@ We need some math constants that we conveniently define in their own header file
 {{ #git show 9e1b0c216e67d1bcf41de6ee6c449758c9cc33e5:src/prelude.rs }}
 ```
 
-**Listing 24:** [[prelude.rs](TODO)] *The rtweekend.h common header*
+**Listing 24:** [[prelude.rs](https://github.com/goldnor/code/blob/9e1b0c216e67d1bcf41de6ee6c449758c9cc33e5/src/prelude.rs)] *The rtweekend.h common header*
 
 <br>
 
@@ -18,7 +18,7 @@ Program files will include `rtweekend.h` first, so all other header files (where
 // nothing changes
 ```
 
-**Listing 25:** [[color.rs](TODO)] *Assume rtweekend.h inclusion for color.h* [^67b]
+**Listing 25:** [[color.rs](https://github.com/goldnor/code/blob/9e1b0c216e67d1bcf41de6ee6c449758c9cc33e5/src/color.rs)] *Assume rtweekend.h inclusion for color.h* [^67b]
 
 <br>
 
@@ -28,7 +28,7 @@ Program files will include `rtweekend.h` first, so all other header files (where
 {{ #git diff -U999 9e1b0c216e67d1bcf41de6ee6c449758c9cc33e5 a83dfcb94c1741454b03fe57b8dc56e97a47c0cc src/hittable.rs:5:10 }}
 ```
 
-**Listing 26:** [[hittable.rs](TODO)] *Assume rtweekend.h inclusion for hittable.h*
+**Listing 26:** [[hittable.rs](https://github.com/goldnor/code/blob/a83dfcb94c1741454b03fe57b8dc56e97a47c0cc/src/hittable.rs)] *Assume rtweekend.h inclusion for hittable.h*
 
 <br>
 
@@ -36,7 +36,7 @@ Program files will include `rtweekend.h` first, so all other header files (where
 {{ #git diff -U999 a83dfcb94c1741454b03fe57b8dc56e97a47c0cc fd505c6bc51cd1887e71b1ce44fe0ee32a1fb198 src/hittable_list.rs:5:12 }}
 ```
 
-**Listing 27:** [[hittable_list.rs](TODO)] *Assume rtweekend.h inclusion for hittable_list.h*
+**Listing 27:** [[hittable_list.rs](https://github.com/goldnor/code/blob/fd505c6bc51cd1887e71b1ce44fe0ee32a1fb198/src/hittable_list.rs)] *Assume rtweekend.h inclusion for hittable_list.h*
 
 <br>
 
@@ -44,7 +44,7 @@ Program files will include `rtweekend.h` first, so all other header files (where
 {{ #git diff -U999 fd505c6bc51cd1887e71b1ce44fe0ee32a1fb198 d57e0ab6d5de95b5d3105a150a69c552e4eeb167 src/sphere.rs:5:11 }}
 ```
 
-**Listing 28:** [[sphere.rs](TODO)] *Assume rtweekend.h inclusion for sphere.h*
+**Listing 28:** [[sphere.rs](https://github.com/goldnor/code/blob/d57e0ab6d5de95b5d3105a150a69c552e4eeb167/src/sphere.rs)] *Assume rtweekend.h inclusion for sphere.h*
 
 <br>
 
@@ -52,7 +52,7 @@ Program files will include `rtweekend.h` first, so all other header files (where
 // nothing changes
 ```
 
-**Listing 29:** [[vec3.rs](TODO)] *Assume rtweekend.h inclusion for vec3.h*
+**Listing 29:** [[vec3.rs](https://github.com/goldnor/code/blob/d57e0ab6d5de95b5d3105a150a69c552e4eeb167/src/vec3.rs)] *Assume rtweekend.h inclusion for vec3.h*
 
 <br>
 
@@ -62,7 +62,7 @@ And now the new main:
 {{ #git diff -U999 d57e0ab6d5de95b5d3105a150a69c552e4eeb167 e19dd26432882f6c779f25632318690a3be5a4ac src/main.rs:[5:12,17,19:22,26:83,84:91,92:96,97:] }}
 ```
 
-**Listing 30:** [[main.rs](TODO)] *The new main with hittables*
+**Listing 30:** [[main.rs](https://github.com/goldnor/code/blob/e19dd26432882f6c779f25632318690a3be5a4ac/src/main.rs)] *The new main with hittables*
 
 <br>
 

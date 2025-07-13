@@ -38,7 +38,7 @@ We add the `front_face` bool to the `hit_record` class. We'll also add a functio
 {{ #git diff -U999 -h 36e5e545d452e57637150a4e1a8ba2ff93aee52b a1c2d4fad73108c42bb6612c0bdb02d2a9c6a7ed src/hittable.rs:11:32 }}
 ```
 
-**Listing 19:** [[hittable.rs](TODO)] *Adding front-face tracking to hit_record*
+**Listing 19:** [[hittable.rs](https://github.com/goldnor/code/blob/a1c2d4fad73108c42bb6612c0bdb02d2a9c6a7ed/src/hittable.rs)] *Adding front-face tracking to hit_record*
 
 <br>
 
@@ -48,7 +48,7 @@ And then we add the surface side determination to the class:
 {{ #git diff -U999 -h a1c2d4fad73108c42bb6612c0bdb02d2a9c6a7ed e54430867656af9ca129dfd3350fe4f0ead18d19 src/sphere.rs:[26:28,48:64] }}
 ```
 
-**Listing 20:** [[sphere.rs](TODO)] *The sphere class with normal determination*
+**Listing 20:** [[sphere.rs](https://github.com/goldnor/code/blob/e54430867656af9ca129dfd3350fe4f0ead18d19/src/sphere.rs)] *The sphere class with normal determination*
 
 <br>
 

@@ -15,7 +15,7 @@ Let’s make some C++ code to output such a thing:[^21a]
 {{ #git show c2b88fe22dadf9cba6dff369ee0b1834dd9733d4:src/main.rs }}
 ```
 
-**Listing 1:** [[main.rs](TODO)] *Creating your first image*
+**Listing 1:** [[main.rs](https://github.com/goldnor/code/blob/c2b88fe22dadf9cba6dff369ee0b1834dd9733d4/src/main.rs)] *Creating your first image*
 
 <br>
 

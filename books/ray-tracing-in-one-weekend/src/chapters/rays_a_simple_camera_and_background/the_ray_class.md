@@ -13,7 +13,7 @@ We can represent the idea of a ray as a class, and represent the function \\( \m
 {{ #git show b54170d548e41ff6ea02b4eceb59269ee20b2a56:src/ray.rs }}
 ```
 
-**Listing 7:** [[ray.rs](TODO)] *The ray class*
+**Listing 7:** [[ray.rs](https://github.com/goldnor/code/blob/b54170d548e41ff6ea02b4eceb59269ee20b2a56/src/ray.rs)] *The ray class*
 
 <br>
 

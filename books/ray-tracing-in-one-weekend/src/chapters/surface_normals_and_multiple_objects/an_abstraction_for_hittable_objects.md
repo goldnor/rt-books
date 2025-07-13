@@ -10,7 +10,7 @@ This `hittable` abstract class will have a `hit` function that takes in a ray. [
 {{ #git show 1791ddbea0fdc81c13e4ef3daaaca7e440cec404:src/hittable.rs }}
 ```
 
-**Listing 15:** [[hittable.rs](TODO)] *The hittable class*
+**Listing 15:** [[hittable.rs](https://github.com/goldnor/code/blob/1791ddbea0fdc81c13e4ef3daaaca7e440cec404/src/hittable.rs)] *The hittable class*
 
 <br>
 
@@ -20,7 +20,7 @@ And here’s the sphere:
 {{ #git show 36e5e545d452e57637150a4e1a8ba2ff93aee52b:src/sphere.rs }}
 ```
 
-**Listing 16:** [[sphere.rs](TODO)] *The sphere class*
+**Listing 16:** [[sphere.rs](https://github.com/goldnor/code/blob/36e5e545d452e57637150a4e1a8ba2ff93aee52b/src/sphere.rs)] *The sphere class*
 
 <br>
 

@@ -6,7 +6,7 @@ Let’s revisit the ray-sphere function:
 {{ #git show 47441cbbe4cb464b6f29e82801d47aba101092f2:src/main.rs:6:15 }}
 ```
 
-**Listing 13:** [[main.rs](TODO)] *Ray-sphere intersection code (before)*
+**Listing 13:** [[main.rs](https://github.com/goldnor/code/blob/47441cbbe4cb464b6f29e82801d47aba101092f2/src/main.rs)] *Ray-sphere intersection code (before)*
 
 <br>
 
@@ -31,6 +31,6 @@ Using these observations, we can now simplify the sphere-intersection code to th
 {{ #git diff -U999 -h 47441cbbe4cb464b6f29e82801d47aba101092f2 f878b49faaf7958cf88bf4748416acf7cfd61408 src/main.rs:11:25 }}
 ```
 
-**Listing 14:** [[main.rs](TODO)] *Ray-sphere intersection code (after)*
+**Listing 14:** [[main.rs](https://github.com/goldnor/code/blob/f878b49faaf7958cf88bf4748416acf7cfd61408/src/main.rs)] *Ray-sphere intersection code (after)*
 
 <br>

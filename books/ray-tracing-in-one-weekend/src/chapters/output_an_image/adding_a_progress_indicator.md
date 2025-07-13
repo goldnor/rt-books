@@ -10,7 +10,7 @@ Our program outputs the image to the standard output stream (`std::cout`), so le
 {{ #git diff -U99 c2b88fe22dadf9cba6dff369ee0b1834dd9733d4 5c4dfec5c8122b0a6df768027866c4a526da8677 src/main.rs:13:33 }}
 ```
 
-**Listing 3:** [[main.rs](TODO)] *Main render loop with progress reporting*
+**Listing 3:** [[main.rs](https://github.com/goldnor/code/blob/5c4dfec5c8122b0a6df768027866c4a526da8677/src/main.rs)] *Main render loop with progress reporting*
 
 <br>
 
