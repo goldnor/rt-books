@@ -2,7 +2,10 @@
 Whenever you start a renderer, you need a way to see an image. The most straightforward way is to write it to a file. The catch is, there are so many formats. Many of those are complex. I always start with a plain text ppm file. Here’s a nice description from Wikipedia:
 
 ![PPM Example](../../imgs/fig-1.01-ppm.jpg)
+
 **Figure 1:** *PPM Example*
+
+<br>
 
 Let’s make some C++ code to output such a thing:[^21a]
 
@@ -11,7 +14,10 @@ Let’s make some C++ code to output such a thing:[^21a]
 ```rust
 {{ #git show c2b88fe22dadf9cba6dff369ee0b1834dd9733d4:src/main.rs }}
 ```
+
 **Listing 1:** [[main.rs](TODO)] *Creating your first image*
+
+<br>
 
 There are some things to note in this code:
 

@@ -9,7 +9,10 @@ We define the vec3 class in the top half of a new vec3.h header file, and define
 ```rust,norun,noplayground
 {{ #git show 400e8e91847d5b2fbde6eb17432cbbe49794e28d:src/vec3.rs }}
 ```
+
 **Listing 4:** [[vec3.rs](TODO)] *vec3 definitions and helper functions*
+
+<br>
 
 We use double here, but some ray tracers use float. double has greater precision and range, but is twice the size compared to float. This increase in size may be important if you're programming in limited memory conditions (such as hardware shaders). Either one is fine — follow your own tastes.
 

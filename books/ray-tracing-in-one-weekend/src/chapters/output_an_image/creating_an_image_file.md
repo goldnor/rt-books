@@ -48,6 +48,8 @@ Opening the output file (in `ToyViewer` on my Mac, but try it in your favorite i
 
 **Image 1:** *First PPM image*
 
+<br>
+
 Hooray! This is the graphics “hello world”. If your image doesn’t look like that, open the output file in a text editor and see what it looks like. It should start something like this:
 
 ```ppm
@@ -70,6 +72,8 @@ P3
 ...
 ```
 **Listing 2:** *First image output*
+
+<br>
 
 If your PPM file doesn't look like this, then double-check your formatting code. If it *does* look like this but fails to render, then you may have line-ending differences or something similar that is confusing your image viewer. To help debug this, you can find a file `test.ppm` in the `images` directory of the Github project. This should help to ensure that your viewer can handle the PPM format and to use as a comparison against your generated PPM file.
 

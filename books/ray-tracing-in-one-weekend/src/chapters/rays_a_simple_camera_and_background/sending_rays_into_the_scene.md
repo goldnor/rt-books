@@ -25,6 +25,8 @@ To start things off, we'll choose an arbitrary viewport height of 2.0, and scale
 
 **Listing 8:** *Rendered image setup*
 
+<br>
+
 If you're wondering why we don't just use `aspect_ratio` when computing `viewport_width`, it's because the value set to `aspect_ratio` is the ideal ratio, it may not be the *actual* ratio between `image_width` and `image_height`. If `image_height` was allowed to be real valued—rather than just an integer—then it would be fine to use `aspect_ratio`. But the *actual* ratio between `image_width` and `image_height` can vary based on two parts of the code. First, `image_height` is rounded down to the nearest integer, which can increase the ratio. Second, we don't allow `image_height` to be less than one, which can also change the actual aspect ratio.
 
 Note that `aspect_ratio` is an ideal ratio, which we approximate as best as possible with the integer-based ratio of image width over image height. In order for our viewport proportions to exactly match our image proportions, we use the calculated image aspect ratio to determine our final viewport width.
@@ -37,6 +39,8 @@ For simplicity we'll start with the camera center at \\( (0,0,0) \\). We'll also
 
 **Figure 3:** *Camera geometry*
 
+<br>
+
 Now the inevitable tricky part. While our 3D space has the conventions above, this conflicts with our image coordinates, where we want to have the zeroth pixel in the top-left and work our way down to the last pixel at the bottom right. This means that our image coordinate Y-axis is inverted: Y increases going down the image.
 
 As we scan our image, we will start at the upper left pixel (pixel \\( 0,0 \\)), scan left-to-right across each row, and then scan row-by-row, top-to-bottom. To help navigate the pixel grid, we'll use a vector from the left edge to the right edge (\\( \mathbf{V_u} \\)), and a vector from the upper edge to the lower edge (\\( \mathbf{V_v} \\)).
@@ -47,6 +51,8 @@ Our pixel grid will be inset from the viewport edges by half the pixel-to-pixel 
 
 **Figure 4:** *Viewport and pixel grid*
 
+<br>
+
 In this figure, we have the viewport, the pixel grid for a 7×5 resolution image, the viewport upper left corner \\( \mathbf{Q} \\), the pixel \\( \mathbf{P_{0,0}} \\) location, the viewport vector \\( \mathbf{V_u} \\) (`viewport_u`), the viewport vector \\( \mathbf{V_v} \\) (`viewport_v`), and the pixel delta vectors \\( \mathbf{\Delta u} \\) and \\( \mathbf{\Delta v} \\).
 
 Drawing from all of this, here's the code that implements the camera. We'll stub in a function `ray_color(const ray& r)` that returns the color for a given scene ray — which we'll set to always return black for now.
@@ -56,6 +62,8 @@ Drawing from all of this, here's the code that implements the camera. We'll stub
 ```
 
 **Listing 9:** [[main.rs](TODO)] *Creating scene rays*
+
+<br>
 
 Notice that in the code above, I didn't make `ray_direction` a unit vector, because I think not doing that makes for simpler and slightly faster code.
 
@@ -75,8 +83,12 @@ Putting all this together, here's what we get:
 
 **Listing 10:** [[main.rs](TODO)] *Rendering a blue-to-white gradient*
 
+<br>
+
 In our case this produces:
 
 <img style="width: 100%" src="../../imgs/img-1.02-blue-to-white.png" alt="A blue-to-white gradient depending on ray Y coordinate">
 
 **Image 2:** *A blue-to-white gradient depending on ray Y coordinate*
+
+<br>

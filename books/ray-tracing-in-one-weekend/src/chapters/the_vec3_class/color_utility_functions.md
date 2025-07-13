@@ -7,6 +7,8 @@ Using our new `vec3` class, we'll create a new `color.h` header file and define 
 
 **Listing 5:** [[color.rs](TODO)] *color utility functions*
 
+<br>
+
 Now we can change our main to use both of these:
 
 ```rust-diff,norun,noplayground
@@ -14,5 +16,7 @@ Now we can change our main to use both of these:
 ```
 
 **Listing 6:** [[main.rs](TODO)] *Final code for the first PPM image*
+
+<br>
 
 And you should get the exact same picture as before.

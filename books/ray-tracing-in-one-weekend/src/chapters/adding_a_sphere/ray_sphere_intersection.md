@@ -52,4 +52,7 @@ So solving for \\( t \\) in the ray-sphere intersection equation gives us these 
 Using all of the above you can solve for \\( t \\), but there is a square root part that can be either positive (meaning two real solutions), negative (meaning no real solutions), or zero (meaning one real solution). In graphics, the algebra almost always relates very directly to the geometry. What we have is:
 
 ![Ray-sphere intersection results](../../imgs/fig-1.05-ray-sphere.jpg)
+
 **Figure 5:** *Ray-sphere intersection results*
+
+<br>

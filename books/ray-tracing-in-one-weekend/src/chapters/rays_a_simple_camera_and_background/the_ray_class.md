@@ -5,6 +5,8 @@ The one thing that all ray tracers have is a ray class and a computation of what
 
 **Figure 2:** *Linear interpolation*
 
+<br>
+
 We can represent the idea of a ray as a class, and represent the function \\( \mathbf{P} (t) \\) as a function that we'll call `ray::at(t)`:
 
 ```rust,norun,noplayground
@@ -12,6 +14,8 @@ We can represent the idea of a ray as a class, and represent the function \\( \m
 ```
 
 **Listing 7:** [[ray.rs](TODO)] *The ray class*
+
+<br>
 
 (For those unfamiliar with C++, the functions ray::origin() and ray::direction() both return an immutable reference to their members. Callers can either just use the reference directly, or make a mutable copy depending on their needs.) [^41a]
 
