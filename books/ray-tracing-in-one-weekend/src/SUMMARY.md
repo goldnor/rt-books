@@ -25,3 +25,4 @@
   - [Some New C++ Features](chapters/surface_normals_and_multiple_objects/some_new_cpp_features.md)
   - [Common Constants and Utility Functions](chapters/surface_normals_and_multiple_objects/common_constants_and_utility_functions.md)
   - [An Interval Class](chapters/surface_normals_and_multiple_objects/an_interval_class.md)
+- [Moving Camera Code Into Its Own Class](chapters/moving_camera_code_into_its_own_class.md)
