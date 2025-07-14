@@ -26,3 +26,6 @@
   - [Common Constants and Utility Functions](chapters/surface_normals_and_multiple_objects/common_constants_and_utility_functions.md)
   - [An Interval Class](chapters/surface_normals_and_multiple_objects/an_interval_class.md)
 - [Moving Camera Code Into Its Own Class](chapters/moving_camera_code_into_its_own_class.md)
+- [Antialiasing](chapters/antialiasing/antialiasing.md)
+  - [Some Random Number Utilities](chapters/antialiasing/some_random_number_utilities.md)
+  - [Generating Pixels with Multiple Samples](chapters/antialiasing/generating_pixels_with_multiple_samples.md)
