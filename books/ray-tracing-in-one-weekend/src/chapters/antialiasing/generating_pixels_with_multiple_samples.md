@@ -1,4 +1,4 @@
-# Generating Pixels with Multiple Samples
+## Generating Pixels with Multiple Samples
 
 For a single pixel composed of multiple samples, we'll select samples from the area surrounding the pixel and average the resulting light (color) values together.
 

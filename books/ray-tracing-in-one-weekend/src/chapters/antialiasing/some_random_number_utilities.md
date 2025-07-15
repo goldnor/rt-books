@@ -1,4 +1,4 @@
-# Some Random Number Utilities [^81a]
+## Some Random Number Utilities [^81a]
 
 [^81a]: The utility functions, such as `degrees_to_radians`, were not mentioned in [chapter 6.7](../surface_normals_and_multiple_objects/common_constants_and_utility_functions.md) since Rust already provides this functionality by default. The utility functions for randomness described in this chapter will also not be included in the code, as they only wrap functions implemented in the Rust [rand crate](https://crates.io/crates/rand) (see [listing 42](#l42)).
 
