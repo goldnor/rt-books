@@ -68,7 +68,7 @@ And now the new main:
 
 This yields a picture that is really just a visualization of where the spheres are located along with their surface normal. This is often a great way to view any flaws or specific characteristics of a geometric model.
 
-<img style="width: 100%" src="../../imgs/img-1.05-normals-sphere-ground.png" alt=" Resulting render of normals-colored sphere with ground">
+<img style="width: 100%; image-rendering: pixelated" src="../../imgs/img-1.05-normals-sphere-ground.png" alt=" Resulting render of normals-colored sphere with ground">
 
 **Image 5:** *Resulting render of normals-colored sphere with ground*
 

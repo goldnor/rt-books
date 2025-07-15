@@ -28,7 +28,7 @@ On the earth, this means that the vector from the earth’s center to you points
 
 And that yields this picture:
 
-<img style="width: 100%" src="../../imgs/img-1.04-normals-sphere.png" alt="A sphere colored according to its normal vectors">
+<img style="width: 100%; image-rendering: pixelated" src="../../imgs/img-1.04-normals-sphere.png" alt="A sphere colored according to its normal vectors">
 
 **Image 4:** A sphere colored according to its normal vectors
 

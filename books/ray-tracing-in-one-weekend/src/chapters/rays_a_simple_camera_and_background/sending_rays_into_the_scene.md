@@ -87,7 +87,7 @@ Putting all this together, here's what we get:
 
 In our case this produces:
 
-<img style="width: 100%" src="../../imgs/img-1.02-blue-to-white.png" alt="A blue-to-white gradient depending on ray Y coordinate">
+<img style="width: 100%; image-rendering: pixelated" src="../../imgs/img-1.02-blue-to-white.png" alt="A blue-to-white gradient depending on ray Y coordinate">
 
 **Image 2:** *A blue-to-white gradient depending on ray Y coordinate*
 

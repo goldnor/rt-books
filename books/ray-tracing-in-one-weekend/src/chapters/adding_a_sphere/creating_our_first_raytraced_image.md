@@ -12,7 +12,7 @@ If we take that math and hard-code it into our program, we can test our code by 
 
 What we get is this:
 
-<img style="width: 100%" src="../../imgs/img-1.03-red-sphere.png" alt="A simple red sphere">
+<img style="width: 100%; image-rendering: pixelated" src="../../imgs/img-1.03-red-sphere.png" alt="A simple red sphere">
 
 **Image 3:** *A simple red sphere*
 

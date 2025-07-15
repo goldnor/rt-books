@@ -44,7 +44,7 @@ Complete building and running instructions can be found in the [project README](
 
 Opening the output file (in `ToyViewer` on my Mac, but try it in your favorite image viewer and Google “ppm viewer” if your viewer doesn’t support it) shows this result:
 
-<img style="width: 100%" src="../../imgs/img-1.01-first-ppm-image.png" alt="First PPM image">
+<img style="width: 100%; image-rendering: pixelated" src="../../imgs/img-1.01-first-ppm-image.png" alt="First PPM image">
 
 **Image 1:** *First PPM image*
 
