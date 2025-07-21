@@ -13,5 +13,4 @@ title = "Ray Tracing in One Weekend (Rust)"
 mathjax-support = true
 
 [preprocessor.git]
-command = "mdbook-git"
 path = "../../code"

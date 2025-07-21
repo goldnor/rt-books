@@ -48,4 +48,18 @@
   - [Total Internal Reflection](chapters/dielectrics/total_internal_reflection.md)
   - [Schlick Approximation](chapters/dielectrics/schlick_approximation.md)
   - [Modeling a Hollow Glass Sphere](chapters/dielectrics/modeling_a_hollow_glass_sphere.md)
+- [Positionable Camera](chapters/positionable_camera/positionable_camera.md)
+  - [Camera Viewing Geometry](chapters/positionable_camera/camera_viewing_geometry.md)
+  - [Positioning and Orienting the Camera](chapters/positionable_camera/positioning_and_orienting_the_camera.md)
+- [Defocus Blur](chapters/defocus_blur/defocus_blur.md)
+  - [A Thin Lens Approximation](chapters/defocus_blur/a_thin_lens_approximation.md)
+  - [Generating Sample Rays](chapters/defocus_blur/generating_sample_rays.md)
+- [Where Next?]()
+  - [A Final Render](chapters/where_next/a_final_render.md)
+  - [Next Steps](chapters/where_next/next_steps.md)
+- [Acknowledgments](chapters/acknowledgments.md)
+- [Citing This Book](chapters/citing_this_book/citing_this_book.md)
+  - [Basic Data](chapters/citing_this_book/basic_data.md)
+  - [Snippets](chapters/citing_this_book/snippets.md)
+
 
